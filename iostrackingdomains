@@ -1,10 +1,29 @@
 ! Custom AdGuard Pro list to block apple telemetry, modified for iOS by @ArtificialCode
 ! load this list directly into your DNS blocker, like AdGuard Pro on iOS
 ! https://github.com/artificialcode/ios-trackers 
-! via source: https://github.com/adversarialtools/apple-telemetry
 ! Updated: 2020-12-25 with source file (domain list) updated on Aug 30, 2020
 ! NOTE: Some Apple Services may malfunction, please report if you notice odd behaviors
 
+! REMOVED FROM BELOW AFTER HAVING ISSUES
+! way too broad ||apple.com^
+! issue with apple maps ||gsp-ssl.ls-apple.com.akadns.net^
+! issue with apple maps ||gsp-ssl.ls.apple.com^
+! issue with apple maps ||gsp-ssl.ls2-apple.com.akadns.net^
+! issue with apple maps local search ||mesu-cdn.apple.com.akadns.net^
+! issue with apple maps local search ||mesu-cdn.origin-apple.com.akadns.net^
+! issue with apple maps local search ||mesu.apple.com^
+! issue with apple maps local search ||mesu.g.aaplimg.com^
+! issue with apple maps||gspe1-ssl.ls.apple.com^
+! issue with apple maps||gspe11-ssl.ls.apple.com^
+! issue with apple maps||gspe12-ssl.ls.apple.com^
+! issue with apple maps||gspe19-ssl-dualstack.ls-apple.com.akadns.net^
+! issue with apple maps||gspe19-ssl.ls.apple.com^
+! issue with apple maps||gspe19.ls.apple.com^
+! issue with apple maps||gspe21-ssl.ls.apple.com^
+! issue with apple maps||gspe21.ls.apple.com^
+! issue with apple maps||gspe35-ssl.ls-apple.com.akadns.net^
+! issue with apple maps||gspe35-ssl.ls.apple.com^
+! END REMOVED ITEMS
 
 ||0-courier.push.apple.com^
 ||0.courier-push-apple.com.akadns.net^
@@ -335,7 +354,6 @@
 ||appldnld.g.aaplimg.com^
 ||apple-finance.query.yahoo.com^
 ||apple-mobile.query.yahooapis.com^
-||apple.com^
 ||apple.news^
 ||appleid.apple.com^
 ||appleid.apple.com.akadns.net^
@@ -470,9 +488,6 @@
 ||gsas.apple.com^
 ||gsas.apple.com.akadns.net^
 ||gsp-ssl-dynamic.ls-apple.com.akadns.net^
-||gsp-ssl.ls-apple.com.akadns.net^
-||gsp-ssl.ls.apple.com^
-||gsp-ssl.ls2-apple.com.akadns.net^
 ||gsp1.apple.com^
 ||gsp10-ssl.apple.com^
 ||gsp10-ssl.ls-apple.com.akadns.net^
@@ -494,16 +509,6 @@
 ||gsp85-ssl.ls.apple.com^
 ||gsp9-ssl.apple.com^
 ||gsp9-ssl.ls-apple.com.akadns.net^
-||gspe1-ssl.ls.apple.com^
-||gspe11-ssl.ls.apple.com^
-||gspe12-ssl.ls.apple.com^
-||gspe19-ssl-dualstack.ls-apple.com.akadns.net^
-||gspe19-ssl.ls.apple.com^
-||gspe19.ls.apple.com^
-||gspe21-ssl.ls.apple.com^
-||gspe21.ls.apple.com^
-||gspe35-ssl.ls-apple.com.akadns.net^
-||gspe35-ssl.ls.apple.com^
 ||guzzoni.apple.com^
 ||health-assets.cdn-apple.com^
 ||help.apple.com^
@@ -569,10 +574,6 @@
 ||ld-3.itunes.apple.com^
 ||ld-5.itunes-apple.com.akadns.net^
 ||ld-5.itunes.apple.com^
-||mesu-cdn.apple.com.akadns.net^
-||mesu-cdn.origin-apple.com.akadns.net^
-||mesu.apple.com^
-||mesu.g.aaplimg.com^
 ||metrics.mzstatic.com^
 ||msg-media.valueclick.akadns.net^
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^
