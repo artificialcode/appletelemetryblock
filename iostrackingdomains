@@ -2,7 +2,7 @@
 ! load this list directly into your DNS blocker, like AdGuard Pro on iOS
 ! https://github.com/artificialcode/ios-trackers 
 ! via source: https://github.com/adversarialtools/apple-telemetry
-! Updated: 2020-12-25
+! Updated: 2020-12-25 with source file (domain list) updated on Aug 30, 2020
 ! NOTE: Some Apple Services may malfunction, please report if you notice odd behaviors
 
 
